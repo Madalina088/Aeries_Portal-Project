@@ -197,7 +197,7 @@ Test cases are executed on the created test Cycle summary: **(inserati aici nume
 ### 3.5 Traceability matrix ###
 
 - the traceability matrix was generated and can be found here::
-![Traceability matrix!]()
+![Traceability matrix!](https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Traceability%20Matrix.png)
 
 - for the first business requirement, 5 tests were run and passed  
 - for the second business requirement, 7 tests were run, 5 passed, 2 failed, and I reported a bug
