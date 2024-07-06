@@ -56,9 +56,9 @@ This release will have restricted features. The software product's capacity will
 The below stories were created in Jira and describe the functional specifications of the "**Login**", "**Settings**" module, for which the final project is performed upon.
 
 <p float="left">
-  <img src="https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Story_1.png" width="32%"/>
-  <img src="https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Story_2.png" width="33%"/>
-  <img src="https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Story_3.png" width="32%"/>
+  <img src="https://github.com/Madalina088/Aeries_Portal-Project/blob/main/1.Story.png" width="32%"/>
+  <img src="https://github.com/Madalina088/Aeries_Portal-Project/blob/main/2.Story.png" width="33%"/>
+  <img src="https://github.com/Madalina088/Aeries_Portal-Project/blob/main/3.Story.png" width="32%"/>
 </p>
 
 ### 1.1	Project Objective ###
