@@ -61,6 +61,10 @@ The below stories were created in Jira and describe the functional specification
   <img src="https://github.com/Madalina088/Aeries_Portal-Project/blob/main/3.Story.png" width="32%"/>
 </p>
 
+Here you can find the releases that were created for this project:
+
+<img src=""/>
+
 ### 1.1	Project Objective ###
 
 Before delivering the project to clients, we must identify, fix, and prevent defects in order to increase client confidence in the quality of the software. 
@@ -72,32 +76,36 @@ Before delivering the project to clients, we must identify, fix, and prevent def
 
 - the following functionalities are going to be tested: 
 Login Module, Settings Module: Change Password, Change E-mail, Configure Grade Alerts, Add New Student To Your Account, Log Out
--	the features in scope for testing: Login Module, Settings Module: Change Password, Change E-mail
--	testing types used: Functional Testing, Graphical User Interface(GUI)
+- the features in scope for testing: Login Module, Settings Module: Change Password, Change E-mail
+- testing types used: Functional Testing, Graphical User Interface(GUI)
 
 ### 1.3	 Functionalities and tests out of scope ###
 
 - the features out of scope: Settings Module: Configure Grade Alerts, Add New Student To Your Account, Log Out
 - non-functional testing like stress, load, and performance is beyond the scope of this project
-- no QA support for mobile applications will be developed, only web applications will be tested
+- no QA support for mobile applications will be developed, just web applications will be tested
 - automation testing is beyond scope
 
-## 2.	Test process ##
+## 2.  Testing process ##
+
+The test process was performed based on the standard test process as described below.
  	
 ### 2.1	 Test planning ### 
 
+The Test Plan is designed to describe all details of testing for all the modules from the Aeries application.
+
 Roles and responsibilities
 
-| Tester  | Madalina Bogdan  | Will test:  Login Module, Change Password, Change Email | 
+| QA Engineer| Madalina Bogdan| Will test:  Login Module, Change Password, Change Email |
 |---|---|---|
 
-Entry criteria:
+Entry criteria defined:
 
 -	functional business specifications are defined
 -	the test plan document is defined 
 -	roles needed for the project are allocated
 
-Exit criteria:
+Exit criteria defined:
 
 -	all test cases have been executed 
 -	90% of tests are passed
