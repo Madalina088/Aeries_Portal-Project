@@ -63,7 +63,7 @@ The below stories were created in Jira and describe the functional specification
 
 Here you can find the releases that were created for this project:
 
-<img src=""/>
+<img src="https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Releases.png"/>
 
 ### 1.1	Project Objective ###
 
