@@ -166,7 +166,7 @@ Test cases are executed on the created test Cycle summary: **(inserati aici nume
 
 ### 2.7 Test monitoring and control ###
 
--	periodic reports (daily/weekly/bi-weekly) will be provided to track the present state of the testing process <img src="" width="100%"/>
+-	periodic reports (daily/weekly/bi-weekly) will be provided to track the present state of the testing process <img src="https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Daily%20Test%20Execution%20Report.png" width="100%"/>
 
 ## 3.	Test deliverables ##
 
@@ -189,9 +189,9 @@ Test cases are executed on the created test Cycle summary: **(inserati aici nume
  - the report for the executed tests was generated after all the tests were run. Out of the total 17 tests executed, 14 were successfully executed, and 3 reported errors
    
 <p float="left">
-  <img src="" width="32%"/>
-  <img src="" width="33%"/>
-  <img src="" width="32%"/>
+  <img src="https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Test%20Execution%20by%20Cycle%201.png" width="32%"/>
+  <img src="https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Test%20Execution%20by%20Cycle%202.png" width="33%"/>
+  <img src="https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Test%20Execution%20by%20Cycle%203.png" width="32%"/>
 </p>
 
 ### 3.5 Traceability matrix ###
@@ -216,7 +216,7 @@ Test cases are executed on the created test Cycle summary: **(inserati aici nume
 
 ### 3.8 Test completion report ###
 
- - link to test completion report (Test cases ran, how many TC are passed and how many are failed)
+ - link to test completion report <img src="" width="100%"/>
  - a total of 17 test cases were planned for execution, and all were executed.
 
 ### 3.9 Schedule ###
