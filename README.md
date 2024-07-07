@@ -146,7 +146,7 @@ The following elements are needed to be ready before the test execution phase be
 
 -	all the test data is provided and reviewed including test data (email, password)
 -	cycle summary was created, and test cases were added to the cycle summary 
--	test environment is up and running: [link to test environment](https://demo.aeries.net/ParentPortal/LoginParent.aspx?demo=True&user=student%40aeries.com&pwd=1234)
+-	test environment is up and running
 -	access to the test environment is given: username : parent@aeries.com | password: 1234
 -	smoke test passed
 
