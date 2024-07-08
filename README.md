@@ -152,10 +152,9 @@ The following elements are needed to be ready before the test execution phase be
 
   ### 2.5 Test execution ###
 
-Test cases are executed on the created test Cycle summary: **(inserati aici numele cycle-ului pe care l-ati creat)**
+Test cases are executed on the created test Cycle summary: <img src="https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Cycle%20Summary.png"/>
 
 -	the tests will be executed on the top 4 used browsers: Google Chrome, Mozilla Firefox, Apple Safari and Microsoft Edge. If time is available we will extend tests on the Opera Brave and Internet Explorer browsers
--	test cases will be executed based on the created Test Cycle Summary  <img src="https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Cycle%20Summary.png"/>
 -	bugs will be reported based on the failed tests
 
   ### 2.6 Test closure ###
