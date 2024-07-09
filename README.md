@@ -53,7 +53,7 @@ The Aeries Project aims to give students and parents with an information system 
 
 This release will have restricted features. The software product's capacity will gradually increase as new functionalities are developed.
 
-The below stories were created in Jira and describe the functional specifications of the "**Login**", "**Settings**" module, for which the final project is performed upon.
+The below stories were created in Jira and describe the functional specifications of the "**Login**", "**Settings**" module:
 
 <p float="left">
   <img src="https://github.com/Madalina088/Aeries_Portal-Project/blob/main/1.Story.png" width="32%"/>
@@ -169,7 +169,7 @@ Test cases are executed on the created test Cycle summary: <img src="https://git
 
 ## 3.	Test deliverables ##
 
-### 3.1 Test plan - [link to test plan]() ###
+### 3.1 Test plan - [link to test plan](https://github.com/Madalina088/Aeries_Portal-Project) ###
   
 -	the Test Plan is designed to describe all the details of testing for the following features: Login Module, Settings Module: Change Password, Change E-mail
 -	the plan identifies the items and features to be tested, the type of testing to be performed, the roles and responsibilities for the testing process, the risks associated with the plan, and the resources and schedule required to complete testing
@@ -177,11 +177,11 @@ Test cases are executed on the created test Cycle summary: <img src="https://git
 ### 3.2 Test conditions ###
 
 -	we will use a test environment
--	the following test conditions can be found here: *[Test Conditions. ]()
+-	the following test conditions can be found here: *[Test Conditions. ](https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Test%20conditions.xlsx)
 
 ### 3.3	Test cases ###
 
- - the test cases and the steps taken by the tester can be found here: *[Test Cases. ]()
+ - the test cases and the steps taken by the tester can be found here: *[Test Cases. ](https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Test%20Cases%26Test%20Steps.xlsx )
 
 ### 3.4 Daily/Weekly/Bi-weekly test summary report ###
 
@@ -198,25 +198,22 @@ Test cases are executed on the created test Cycle summary: <img src="https://git
 - the traceability matrix was generated and can be found here:
 ![Traceability matrix!](https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Traceability%20Matrix.png)
 
-- for the first business requirement, 5 tests were run and passed  
-- for the second business requirement, 7 tests were run, 5 passed, 2 failed, and I reported a bug
-- for the third business requirement, 5 tests were run, 4 passed, 1 failed, and I reported a bug
-- 
 ### 3.6 Test case results ###
 
- -  the test cases results can be found here: *[Test Cases Results. ]()
+ -  the test cases results can be found here: *[Test Cases Results. ](https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Test%20Cases%20Result.csv)
 
 ### 3.7 Bugs report ###
 
  Bugs have been created based on the failed tests. The complete bug reports can be found here:: *[Bugs Report ]()
- 
- The following is a summary of the bugs that have been found
-**(inserati o lista cu titlurile bug-urilor identificate impreuna cu prioritatea si severitatea fiecaruia)**   
 
 ### 3.8 Test completion report ###
 
  - link to test completion report: <img src="https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Test%20Executions%20By%20Test%20Cycle.png" width="100%"/>
- - a total of 17 test cases were planned for execution, and all were executed.
+ 
+ - the test execution chart has been prepared, and the final report reveals that out of the total of 17 tests:
+- for the test cycle "Change email", 7 tests were run 2 failed, and I reported two bugs
+- for the test cycle "Change the password", 5 tests were run, 4 passed, 1 failed, and I reported a bug
+- for the test cycle "Sign in", 5 tests were run and passed 
 
 ### 3.9 Schedule ###
 
