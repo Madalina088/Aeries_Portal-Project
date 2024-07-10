@@ -1,0 +1,134 @@
+issuekey,Summary,TestStep,Test Data,Test Result,Issue Type,Resolution,Resolved,Created,Priority,Linked Issues,Assignee,Updated,Status,Description
+APP-20,"Cancel the ""change email"" process",Access settings for parent@aeries.com from the top menu bar,,A drop-down list is displayed with multiple options.,Test,,,2024-05-28T14:05:15.713+0300,Medium,"APP-23,APP-2",Bogdan Madalina,2024-06-01T15:44:28.475+0300,In Progress,"Cancel the ""change email"" process
+
+The user has to be logged into the application with valid credentials
+
+Input Test Data: user parent@aeries.com, Password:  1234 "
+,,"Click on ""Change Email"" from the drop-down list.",,"A new window is displayed ""Account info""",,,,,,,,,,
+,,"Click on ""Edit""",,A new window is displayed on the same page.,,,,,,,,,,
+,,"Click on ""Cancel""",,The window displayed is closed.,,,,,,,,,,
+APP-19,"Check the ""change email"" functionality entering invalid ""new email"" and valid password",Access settings for parent@aeries.com from the top menu bar.,,A drop-down list is displayed with multiple options.,Test,Done,2024-06-01T16:00:20.323+0300,2024-05-28T13:49:50.745+0300,Medium,APP-2,Bogdan Madalina,2024-06-01T16:00:20.329+0300,Done,"Check ""change email"" functionality entering invalid ""new email"" and valid password
+
+The user has to be logged into the application with valid credentials
+
+Input Test Data: user parent@aeries.com,  Password:  1234 "
+,,"Click on ""Change Email"" from drop-down list.",,"A new window is displayed called ""Account info"".",,,,,,,,,,
+,,"Click on ""Edit""",,A new window is displayed on the same page,,,,,,,,,,
+,,"Enter an invalid email address in the field ""New Email""",,,,,,,,,,,,
+,,"Enter the valid password in the field ""Portal Password""",,,,,,,,,,,,
+,,"Click on ""Change Email""",,"An error message appears: ""There was a problem sending the confirmation email. Unable to determine SMTP Server Name.""",,,,,,,,,,
+APP-18,"Check ""change email"" functionality using the same e-mail address and an invalid password",Access settings for parent@aeries.com from the top menu bar.,,A drop-down list is displayed with multiple options.,Test,Done,2024-06-01T15:59:52.346+0300,2024-05-28T13:36:23.858+0300,Medium,APP-2,Bogdan Madalina,2024-06-01T15:59:52.350+0300,Done,"Check ""change email"" functionality using the same e-mail address and an invalid password"
+,,"Click on ""Change Email"" from the drop-down list.",,"A new window is displayed ""Account info"".",,,,,,,,,,
+,,"Click on ""Edit""",,A new window is displayed on the same page.,,,,,,,,,,
+,,"Enter the old email address in the field ""New Email""",,"Enter an invalid password in the filed ""Portal Password""",,,,,,,,,,
+,,"Enter an invalid password in the field ""Portal Password"".",,,,,,,,,,,,
+,,"Click on ""Change Email""",,"An error message appears: ""The email parent@aeries.com is already in use. If you don't remember your password for that account, log off here, and at the login screen, click the 'Forgot Password?' link.""",,,,,,,,,,
+APP-17,"Check the ""change email"" functionality without entering ""portal password"".",Access settings for parent@aeries.com from the top menu bar.,,A drop-down list is displayed with multiple options.,Test,,,2024-05-28T13:31:40.078+0300,Medium,"APP-22,APP-2",Bogdan Madalina,2024-06-01T15:37:21.006+0300,In Progress,"Check the ""change email"" functionality without entering ""portal password"".
+
+The user has to be logged into the application with valid credentials.
+
+Input test data: user parent@aeries.com, password:  1234."
+,,"Click on ""Change Email"" from the drop-down list.",,"A new window is displayed ""Account info"".",,,,,,,,,,
+,,"Click on ""Edit""",,A new window is displayed on the same page.,,,,,,,,,,
+,,"Enter the new email address in the field ""New Email"".",,,,,,,,,,,,
+,,"Leave the field ""Portal Password"" empty.",,,,,,,,,,,,
+,,"Click on ""Change Email""",,"An error message appears: ""Please re-enter your password"".",,,,,,,,,,
+APP-16,"Check the ""change email"" functionality by entering an invalid ""portal password""",Access settings for parent@aeries.com from the top menu bar.,,A drop-down list is displayed with multiple options.,Test,Done,2024-06-01T16:01:34.060+0300,2024-05-28T13:30:34.216+0300,Medium,APP-2,Bogdan Madalina,2024-06-01T16:01:34.064+0300,Done,"Check the ""change email"" functionality by entering an invalid ""portal password""."
+,,"Click on ""Change Email"" from the drop-down list.",,"A new window is displayed ""Account info""",,,,,,,,,,
+,,"Click on ""Edit"".",,A new window is displayed on the same page.,,,,,,,,,,
+,,"Enter the new e-mail address in the field ""New Email"".",,,,,,,,,,,,
+,,"Enter an invalid password in the field ""Portal Password"" .",,,,,,,,,,,,
+,,"Click on ""Change Email""",,"An error message appears: ""If you don't remember your password for that account, log off here, and at the login screen, click the 'Forgot Password' link.""",,,,,,,,,,
+APP-15,"Check the ""change email"" functionality without entering data",Access settings for parent@aeries.com from the top menu bar.,,A drop-down list is displayed with multiple options.,Test,Done,2024-06-01T16:01:28.908+0300,2024-05-28T13:29:07.183+0300,Medium,APP-2,Bogdan Madalina,2024-06-01T16:01:28.912+0300,Done,"Check the ""change email"" functionality without entering data
+
+The user has to be logged into the application with valid credentials
+
+Input Test Data: user parent@aeries.com,  Password:  1234 "
+,,"Click on ""Change Email"" from the drop-down list.",,"A new window is displayed called ""Account info"".",,,,,,,,,,
+,,"Click on ""Edit"".",,A new window is displayed on the same page.,,,,,,,,,,
+,,"Click on ""Change Email"" without entering data.",,"An error message is displayed  ""Please enter your new email address.""
+""Please re-enter your password"".",,,,,,,,,,
+APP-14,"Check ""change email"" functionality entering valid data",Access settings for parent@aeries.com from the top menu bar.,,A drop-down list is displayed with multiple options.,Test,Done,2024-06-01T16:01:24.374+0300,2024-05-28T13:27:08.341+0300,Medium,APP-2,Bogdan Madalina,2024-06-01T16:01:24.378+0300,Done,"Check ""change email"" functionality entering valid data
+
+The user has to be logged into the application with valid credentials
+
+Input Test Data: user parent@aeries.com,  Password:  1234 "
+,,"Click on ""Change email"" from the drop-down list.",,"A new window is displayed called ""Account info"".",,,,,,,,,,
+,,"Click on ""Edit"".",,A new window is displayed on the same page.,,,,,,,,,,
+,,"Enter a new valid email address in the field ""New email"".",,,,,,,,,,,,
+,,"Enter a valid password in the field ""Portal Password"".",,,,,,,,,,,,
+,,"Click on ""Change Email"".",,"A confirmation email is sent to the new address, and a warning email is sent to the old address.",,,,,,,,,,
+APP-13,"Check the ""Change the password"" functionality without entering ""New Password""",Access settings for parent@aeries.com from the top menu bar.,,A drop-down list is displayed with multiple options.,Test,Done,2024-06-01T16:01:20.240+0300,2024-05-28T13:03:32.884+0300,Medium,APP-3,Bogdan Madalina,2024-06-01T16:01:20.245+0300,Done,"Check the ""Change the password"" functionality without entering ""New Password""
+
+Preconditions:
+
+The user has to be logged into the application with valid credentials
+
+Input Test Data: user parent@aeries.com, Password:  1234 "
+,,"""Change the password"" from the drop-down list.",,"A new window is displayed: ""Change Your Aeries Password"".",,,,,,,,,,
+,,"Enter a valid ""Old Password"".",,"The ""Old Password"" field is completed with an encrypted password.",,,,,,,,,,
+,,"Leave the field ""New Password"" empty",,,,,,,,,,,,
+,,"Enter a valid ""New Password again"".",,"The ""New password again"" field is completed with an encrypted password.",,,,,,,,,,
+,,"Click on ""Update"".",,"The password has not changed. The error message is ""New Password Required"".",,,,,,,,,,
+APP-12,"Check the ""change the password"" functionality without entering ""Old Password""",Access settings for parent@aeries.com from the top menu bar.,,A drop-down list is displayed with multiple options.,Test,,,2024-05-28T13:02:29.370+0300,Medium,"APP-21,APP-3",Bogdan Madalina,2024-06-01T15:36:53.120+0300,In Progress,"Check the ""change the password"" functionality without entering ""Old Password"".
+
+
+Preconditions:
+
+The user has to be logged into the application with valid credentials
+
+Input Test Data: user parent@aeries.com, Password:  1234 "
+,,"Click on ""Change the password"" from the drop-down list.",,"A new window is displayed: ""Change Your Aeries Password"".",,,,,,,,,,
+,,"Leave the field ""Old Password"" empty",,,,,,,,,,,,
+,,"Enter a valid ""New password""",,"""New password"" field is completed with an encrypted password.",,,,,,,,,,
+,,"Enter a valid ""New Password again"".",,"""New password again"" field is completed with an encrypted password",,,,,,,,,,
+,,"Click on ""Update"".",,"The password has not changed. The error message is ""Old Password Required"".",,,,,,,,,,
+APP-11,"Check the ""change the password"" functionality by entering an invalid ""New Password Again"".",Access settings for parent@aeries.com from the menu bar.,,A drop-down list is displayed with multiple options.,Test,Done,2024-06-01T16:01:15.236+0300,2024-05-28T13:00:49.766+0300,Medium,APP-3,Bogdan Madalina,2024-06-01T16:01:15.241+0300,Done,"Check the ""change the password"" functionality by entering an invalid ""New Password Again"".
+
+Preconditions:
+
+The user has to be logged into the application with valid credentials
+
+Input Test Data: user parent@aeries.com, Password:  1234 "
+,,"Click on ""Change the password"" from the drop-down list.",,"A new window is displayed:: ""Change Your Aeries Password""",,,,,,,,,,
+,,Enter valid Old Password.,,"""Old Password"" field is completed with an encrypted password",,,,,,,,,,
+,,"Enter a valid ""New Password"".",,"""New password"" field is completed with an encrypted password",,,,,,,,,,
+,,"Click on ""Update"".",,"The password has not changed. The error message is: ""Passwords do not match"".",,,,,,,,,,
+APP-10,"Check the ""change the password"" functionality by entering an invalid ""Old Password"".",Access settings for parent@aeries.com from the menu bar.,,A drop-down list is displayed with multiple options,Test,Done,2024-06-01T16:01:10.893+0300,2024-05-28T12:58:10.416+0300,Medium,APP-3,Bogdan Madalina,2024-06-01T16:01:10.898+0300,Done,"Check the ""change the password"" functionality by entering an invalid ""Old Password"".
+
+Preconditions:
+
+The user has to be logged into the application with valid credentials
+
+Input Test Data: user parent@aeries.com, Password:  1234 "
+,,"Click on ""Change the password"" from the drop-down list.",,"A new window is displayed: ""Change Your Aeries Password""",,,,,,,,,,
+,,"Enter an invalid ""Old Password"".",,"""Old Password"" field is completed with an encrypted password.",,,,,,,,,,
+,,"Enter a valid ""New Password"".",,"""New password"" field is completed with an encrypted password.",,,,,,,,,,
+,,"Enter a valid ""New Password again""",,"""New password"" field is completed with an encrypted password.",,,,,,,,,,
+,,"Click on ""Update""",,"The password has not changed. The error message is: ""You did not enter your old password correctly! Please try again.""",,,,,,,,,,
+APP-9,"Check the ""change the password"" functionality when entering valid data.",Access settings for parent@aeries.com from the top menu bar,,A drop-down list is displayed with multiple options,Test,Done,2024-06-01T16:01:06.721+0300,2024-05-28T12:51:53.932+0300,Medium,APP-3,Bogdan Madalina,2024-06-01T16:01:06.726+0300,Done,"Check the ""change the password"" functionality when entering valid data.
+
+Preconditions: 
+
+The user has to be logged into the application with valid credentials
+
+Input Test Data: user parent@aeries.com,  Password:  1234 "
+,,"Click on ""change the password"" from the drop-down list",,"A new window is displayed: ""Change Your Aeries Password""",,,,,,,,,,
+,,"Enter valid ""Old Password""",,"""Old Password"" field is completed with encrypted password",,,,,,,,,,
+,,"Enter valid ""New Password""",,"""New password"" field is completed with encrypted password",,,,,,,,,,
+,,"Enter valid ""New Password again""",,"""New password again"" field is completed with encrypted password",,,,,,,,,,
+,,"Click on ""Update""",,"The password is successfully changed, and the message is ""Password Change Successful.""",,,,,,,,,,
+APP-8,"Check the ""Sign In"" functionality by entering an invalid e-mail address.",Enter an invalid e-mail address,,"The error message is ""The Username and Password entered are incorrect""",Test,Done,2024-06-01T16:01:01.653+0300,2024-05-27T20:54:45.830+0300,Medium,APP-1,Bogdan Madalina,2024-06-01T16:01:01.657+0300,Done,"Check the ""Sign In"" functionality by entering an invalid e-mail address."
+APP-7,"Check the ""Sign In"" functionality by entering an invalid password.",Enter a valid e-mail address,Input Test Data: user parent@aeries.com,Data entered successfully,Test,Done,2024-06-01T16:00:57.984+0300,2024-05-27T20:50:55.064+0300,Medium,APP-1,Bogdan Madalina,2024-06-01T16:00:57.988+0300,Done,"Check the ""Sign In"" functionality by entering a valid email address and an invalid password.  
+
+Preconditions: 
+
+1.Account need to be created before they can access the Portals 
+
+2. The sign-in page is already open "
+,,Enter an invalid password,,"The error message is ""The Username and Password entered are incorrect""",,,,,,,,,,
+APP-6,"Check the ""Sign In"" functionality after 10 failed login attempts",Enter an invalid email address or password at least 10 times consecutively.,,"The parent account is locked out of the portal after 10 failed login attempts. The error message is ""Too many failed login attempts.Account has been locked for 5 minutes.""",Test,Done,2024-06-01T16:00:47.759+0300,2024-05-27T20:37:59.324+0300,Medium,APP-1,Bogdan Madalina,2024-06-01T16:00:47.764+0300,Done,
+APP-5,"Check the ""Sign In"" functionality without entering an e-mail address.","Leave the field e-mail address empty and click on ""Sign In""",,"The error message is ""You must enter a User Name!""",Test,Done,2024-06-01T16:00:42.417+0300,2024-05-27T20:34:47.696+0300,Medium,APP-1,Bogdan Madalina,2024-06-01T16:00:42.421+0300,Done,Examine how the system behaves without providing an email address.
+APP-4,"Check the ""Sign In"" functionality by entering valid data",Enter a valid e-mail address,Input Test Data: user parent@aeries.com,Data entered successfully,Test,Done,2024-06-01T16:00:37.904+0300,2024-05-27T20:32:17.534+0300,Medium,APP-1,Bogdan Madalina,2024-06-01T16:00:37.909+0300,Done,"Check the ""Sign In"" functionality by entering a valid e-mail address and password."
+,,Enter a valid password,Password:  1234,Data entered successfully,,,,,,,,,,
+,,Click on Sign In,,Signing in is successful. The Aeries Home page is displayed.,,,,,,,,,,
