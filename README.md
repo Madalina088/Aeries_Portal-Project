@@ -181,7 +181,7 @@ Test cases are executed on the created test Cycle summary: <img src="https://git
 
 ### 3.3	Test cases ###
 
- - the test cases and the steps taken by the tester can be found here: *[Test Cases. ](https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Test%20Cases%26Test%20Steps.xlsx )
+ - the test cases and the steps taken by the tester can be found here: *[Test Cases. ](https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Test%20Cases%20and%20Test%20Steps.csv)
 
 ### 3.4 Daily/Weekly/Bi-weekly test summary report ###
 
