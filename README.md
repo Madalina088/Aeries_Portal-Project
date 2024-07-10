@@ -204,7 +204,7 @@ Test cases are executed on the created test Cycle summary: <img src="https://git
 
 ### 3.7 Bugs report ###
 
- Bugs have been created based on the failed tests. The complete bug reports can be found here:: *[Bugs Report]()
+ Bugs have been created based on the failed tests. The complete bug reports can be found here:: *[Bugs Report](https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Bugs.pdf)
 
 ### 3.8 Test completion report ###
 
