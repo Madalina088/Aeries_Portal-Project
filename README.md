@@ -2,7 +2,7 @@
 
 | Date  | Description  | Author | Comments | 
 |---|---|---|---|
-| 28.05.2024 | Test Plan for version 1.0 | Madalina Bogdan|             |
+| 28.05.2024 | Test Plan for Version 1.0 | Madalina Bogdan|             |
 
 
 1. Introduction
@@ -49,11 +49,11 @@
 
 ## 1. Introduction ##
 
-The Aeries Project aims to give students and parents with an information system where they may check grades, update contact information, and access any other school-provided information. 
+The Aeries Project aims to provide students and parents with an information system where they may check grades, update contact information, and access any other school-provided information. 
 
 This release will have restricted features. The software product's capacity will gradually increase as new functionalities are developed.
 
-The below stories were created in Jira and describe the functional specifications of the "**Login**", "**Settings**" module:
+The below stories were created in Jira and describe the functional specifications of the "**Login**" and "**Settings**" modules:
 
 <p float="left">
   <img src="https://github.com/Madalina088/Aeries_Portal-Project/blob/main/1.Story.png" width="32%"/>
@@ -77,13 +77,13 @@ Before delivering the project to clients, we must identify, fix, and prevent def
 - the following functionalities are going to be tested: 
 Login Module, Settings Module: Change Password, Change E-mail, Configure Grade Alerts, Add New Student To Your Account, Log Out
 - the features in scope for testing: Login Module, Settings Module: Change Password, Change E-mail
-- testing types used: Functional Testing, Graphical User Interface(GUI)
+- testing types used: Functional Testing, Graphical User Interface (GUI)
 
 ### 1.3	 Functionalities and tests out of scope ###
 
 - the features out of scope: Settings Module: Configure Grade Alerts, Add New Student To Your Account, Log Out
-- non-functional testing like stress, load, and performance is beyond the scope of this project
-- no QA support for mobile applications will be developed, just web applications will be tested
+- Non-Functional testing like stress, load, and performance is beyond the scope of this project
+- no QA support for mobile applications will be developed, only web applications will be tested
 - automation testing is beyond scope
 
 ## 2.  Testing process ##
@@ -92,7 +92,7 @@ The test process was performed based on the standard test process as described b
  	
 ### 2.1	 Test planning ### 
 
-The Test Plan is designed to describe all details of testing for all the modules from the Aeries application.
+The Test Plan is designed to describe all the details of testing for all the modules in the Aeries application.
 
 Roles and responsibilities
 
@@ -125,7 +125,7 @@ Project Risks:
 Product Risks:
 
 -	potential impact on web page pagination on various screen sizes, including desktop, tablet, and mobile
--	design may not display correctly on the latest versions of Google Chrome, Mozilla Firefox, Apple Safari and Microsoft Edge
+-	design may not display correctly on the latest versions of Google Chrome, Mozilla Firefox, Apple Safari, and Microsoft Edge
 -	a new browser may not be supported
 -	functionalities may not remain consistent across all tested browsers
 
@@ -137,8 +137,8 @@ Product Risks:
 ### 2.3 Test design ###
 
 -	all the test cases are written and reviewed 
--	Functional test cases will be created in Zephyr Squad Test Management Tool with Jira Software Development Management Tool  
--	GUI test cases will be created in Zephyr Squad Test Management Tool with Jira Software Development Management Tool
+-	Functional test cases will be created in the Zephyr Squad Test Management Tool with Jira Software Development Management Tool  
+-	GUI test cases will be created in the Zephyr Squad Test Management Tool with Jira Software Development Management Tool
 
 ### 2.4 Test implementation ###
 
@@ -147,7 +147,7 @@ The following elements are needed to be ready before the test execution phase be
 -	all the test data is provided and reviewed including test data (email, password)
 -	cycle summary was created, and test cases were added to the cycle summary 
 -	test environment is up and running
--	access to the test environment is given: username : parent@aeries.com | password: 1234
+-	access to the test environment is given: username: parent@aeries.com | password: 1234
 -	smoke test passed
 
   ### 2.5 Test execution ###
@@ -200,19 +200,19 @@ Test cases are executed on the created test Cycle summary: <img src="https://git
 
 ### 3.6 Test case results ###
 
- -  the test cases results can be found here: *[Test Cases Results. ](https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Test%20Cases%20Result.csv)
+ -  the test case results can be found here: *[Test Case Results. ](https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Test%20Cases%20Result.csv)
 
 ### 3.7 Bugs report ###
 
- Bugs have been created based on the failed tests. The complete bug reports can be found here:: *[Bugs Report ]()
+ Bugs have been created based on the failed tests. The complete bug reports can be found here:: *[Bugs Report]()
 
 ### 3.8 Test completion report ###
 
  - link to test completion report: <img src="https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Test%20Executions%20By%20Test%20Cycle.png" width="100%"/>
  
  - the test execution chart has been prepared, and the final report reveals that out of the total of 17 tests:
-- for the test cycle "Change email", 7 tests were run 2 failed, and I reported two bugs
-- for the test cycle "Change the password", 5 tests were run, 4 passed, 1 failed, and I reported a bug
+- for the test cycle "Change email", 7 tests were run, 5 passed, and 2 failed for which I reported a bug
+- for the test cycle "Change the password", 5 tests were run, 4 passed, and 1 failed for which I reported a bug
 - for the test cycle "Sign in", 5 tests were run and passed 
 
 ### 3.9 Schedule ###
