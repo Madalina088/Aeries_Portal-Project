@@ -177,7 +177,7 @@ Test cases are executed on the created test Cycle summary: <img src="https://git
 ### 3.2 Test conditions ###
 
 -	we will use a test environment
--	the following test conditions can be found here: *[Test Conditions. ](https://github.com/Madalina088/Aeries_Portal-Project/blob/main/Test%20conditions.xlsx)
+-	the following test conditions can be found here: *[Test Conditions. ](https://github.com/Madalina088/Aeries_Portal-Project/blob/main/_Test%20conditions_.csv)
 
 ### 3.3	Test cases ###
 
