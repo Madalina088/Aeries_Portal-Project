@@ -1,52 +1,60 @@
 <h1>Testing Project for **Aeries**</h1>
 
+This testing document is intended to be used by the developer team, testing team, and other Aeries project stakeholders. It also seeks to give everyone interested in the application's performance and quality a clear understanding of the testing procedure.
+
 | Date  | Description  | Author | Comments | 
 |---|---|---|---|
-| 28.05.2024 | Test Plan for Version 1.0 | Madalina Bogdan|             |
+| 28.05.2024 | Test Plan for Version 1.0 | Madalina Bogdan|Draft test plan          |
+| 01.02.2025 | Test Plan for Version 1.1 | Madalina Bogdan|Added more details for Test Process      |
 
 
 1. Introduction
-
+   
     1.1 Project objective
    
     1.2 Functionalities in scope
-
+   
     1.3 Functionalities and tests out of scope
 
 2. Test process
-
-    2.1 Test planning
    
+    2.1 Test planning
+      - Roles and Responsibilities
+      - Entry Criteria
+      - Exit Criteria
+      - Risks
+        
     2.2 Test analysis
-
+   
     2.3 Test design
-
+   
     2.4 Test implementation
    
-    2.5 Test execution 
-
+    2.5 Test execution
+   
     2.6 Test closure
-
+   
     2.7 Test monitoring and control
    
 3. Test deliverables
-
+   
     3.1 Test plan
    
     3.2 Test conditions
-
+   
     3.3 Test cases
-
+   
     3.4 Daily test summary reports
    
     3.5 Traceability matrix
-
+   
     3.6 Test case results
-
+   
     3.7 Bugs report
-
+   
     3.8 Test completion report
 
+   
 ## 1. Introduction ##
 
 The Aeries Project aims to provide students and parents with an information system where they may check grades, update contact information, and access any other school-provided information. 
